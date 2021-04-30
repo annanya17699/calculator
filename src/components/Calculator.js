@@ -20,7 +20,7 @@ class Calculator extends React.Component {
     render()
     {
     return (
-    <div className="frame">
+    <div className="frame" style={{textAlign: 'center', border:'#000 5px', margin:'10px'}}>
       <CalculatorTitle value="Calculator"/>
       <div class="mainCalc">
         <OutputScreen answer = {this.state.answer} question = {this.state.question}/>
